@@ -1,0 +1,15 @@
+[project]
+name = "flask-tutorial-1"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Shyam", email = "shyamsundarv00073@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["flask", "flask-sqlalchemy"]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
